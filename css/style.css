@@ -1,0 +1,199 @@
+.login-body {
+    background-color: rgb(245, 247, 250);
+    text-align: center;
+}
+.swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: absolute;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 350px;
+    left: 0;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    box-shadow: 1px 1px 4px 4px #EEEEEE;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+}
+.swipe-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.swipe-wrap > div {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.MQTT_Title {
+    padding-left: 10px;
+    display: inline;
+    color: rgb(199, 54, 93);
+}
+.hostDIV {
+    padding-top: 28px;
+}
+#hostMQTT {
+    width: 80%;
+    height: 24px;
+    font-size: 16px;
+    box-shadow: 2px 2px 3px 3px #EFEFEF;
+}
+.hostIMG {
+    position: absolute;
+    top: 61px;
+    left: 42px;
+}
+.portDIV {
+    padding-top: 14px;
+}
+#portMQTT {
+    width: 80%;
+    height: 24px;
+    font-size: 16px;
+    box-shadow: 2px 2px 3px 3px #EFEFEF;
+}
+.portIMG {
+    position: absolute;
+    top: 106px;
+    left: 42px;
+}
+.userDIV {
+    padding-top: 14px;
+}
+#userMQTT {
+    width: 80%;
+    height: 24px;
+    font-size: 16px;
+    box-shadow: 2px 2px 3px 3px #EFEFEF;
+}
+.userIMG {
+    position: absolute;
+    top: 150px;
+    left: 42px;
+}
+.pwdDIV {
+    padding-top: 14px;
+}
+#pwdMQTT {
+    width: 80%;
+    height: 24px;
+    font-size: 16px;
+    box-shadow: 2px 2px 3px 3px #EFEFEF;
+}
+.pwdIMG {
+    position: absolute;
+    top: 194px;
+    left: 42px;
+}
+.timeoutDIV {
+    padding-top: 14px;
+    padding-bottom: 22px;
+}
+#timeoutMQTT {
+    width: 80%;
+    height: 24px;
+    font-size: 16px;
+    box-shadow: 2px 2px 3px 3px #EFEFEF;
+}
+.timeoutIMG {
+    position: absolute;
+    top: 237px;
+    left: 42px;
+}
+#connectMQTT {
+    background-color: rgb(199, 54, 93);
+    color: white;
+    border-color: rgb(199, 54, 93);
+    font-size: 16px;
+    margin: auto;
+    width: 70%;
+    height: 36px;
+}
+#topics-content {
+    margin-top: 20px;
+}
+.topic-btn {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background-color: rgb(199, 54, 93);
+    color: white;
+    border: none;
+    width: 80%;
+    margin-bottom: 14px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: 2px 2px 3px 3px #EFEFEF;
+}
+.topic-btn:hover {
+    background-color: rgb(179, 34, 73);
+}
+.topic-btn:active {
+    background-color: indigo;
+}
+.value-h2 {
+    margin-top: 30px;
+    color: blue;
+    font-weight: bold;
+}
+#logout-btn {
+    position: absolute;
+    left: 88%;
+    right: 0;
+    top: 20px;
+    transform: translateX(-20%);
+    height: 40px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background-color: rgb(199, 54, 93);
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: 2px 2px 3px 3px #EFEFEF;
+}
+#div-Last-Value {
+    position: absolute;
+    margin: -380px 0px 0px 480px;
+    width: 300px;
+}
+#table-last-values {
+    border: 1px solid black;
+    margin: 10px 0px 0px 0px;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#table-last-values tbody tr, #table-last-values tbody td {
+    border: 1px solid black;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+:-moz-placeholder {
+    text-align: center;
+}
+ 
+::-moz-placeholder {
+    text-align: center;
+}
+ 
+:-ms-input-placeholder {  
+    text-align: center;
+}
+input {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border-color: black;
+    text-align: center;
+}

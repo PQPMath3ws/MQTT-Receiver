@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MQTT - Log In</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body class="login-body">
+        <div id="slider" class="swipe">
+            <div class="swipe-wrap">
+                <div id="login-div">
+                    <span>
+                        <img src="https://api.cloudmqtt.com/img/service-logo.png" width="20" />
+                        <h2 class="MQTT_Title">MQTT Receiver</h2>
+                    </span>
+                    <div class="hostDIV">
+                        <input id="hostMQTT" placeholder="Servidor" type="text" required>
+                        <img class="hostIMG" src="img/server.png" width="17" />
+                    </div>
+                    <div class="portDIV">
+                        <input id="portMQTT" type="text" placeholder="Porta (WebSocket)" required>
+                        <img class="portIMG" src="img/port.png" width="17" />
+                    </div>
+                    <div class="userDIV">
+                        <input id="userMQTT" type="text" placeholder="Usuário" required>
+                        <img class="userIMG" src="img/user.png" width="17" />
+                    </div>
+                    <div class="pwdDIV">
+                        <input id="pwdMQTT" type="password" placeholder="Senha" required>
+                        <img class="pwdIMG" src="img/password.png" width="17" />
+                    </div>
+                    <div class="timeoutDIV">
+                        <input id="timeoutMQTT" type="text" placeholder="Timeout">
+                        <img class="timeoutIMG" src="img/timeout.png" width="17" />
+                    </div>
+                    <div class="connectButton">
+                        <button id="connectMQTT" class="connectBTN" onclick="getData()">Conectar</button>
+                    </div>
+                </div>
+                <div id="topics-div">
+                    <span>
+                        <h2 class="MQTT_Title">Tópicos</h2>
+                    </span>
+                    <div id="topics-content">
+                    </div>
+                </div>
+                <div id="topic-content">
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/paho-mqtt.js"></script>
+        <script type="text/javascript" src="js/swipe.js"></script>
+        <script type="text/javascript" src="js/chart.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
