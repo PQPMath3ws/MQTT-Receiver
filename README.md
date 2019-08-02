@@ -12,10 +12,12 @@
 
 <h1>Tópicos</h1>
 <p>Tópicos SEMPRE serão adicionados e atualizados automaticamente na medida em que forem chamados no seu servidor MQTT.</p>
+
 ![Print 2](https://raw.githubusercontent.com/PQPMath3ws/MQTT-Receiver/57170c6/prints/print2.jpg)
 
 <h1>Dados</h1>
 <p>Entre no tópico que deseja e acompanhe em tempo real seus valores e alterações em um gráfico (para números) e e uma tabela (para qualquer tipo de dado)</p>
+
 ![Print 3](https://raw.githubusercontent.com/PQPMath3ws/MQTT-Receiver/57170c6/prints/print3.jpg)
 
 <h1>No mais, aproveite e faça bom uso!</h1>
